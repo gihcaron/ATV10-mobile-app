@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Home from './pages/Home/Home.js'
 import Detalhes from './pages/Detalhes/Detalhes.js'
+import Perfil from './pages/Perfil/Perfil.js'
 
 const Stack = createStackNavigator();
 
@@ -13,6 +14,7 @@ export default function App() {
             <Stack.Navigator>
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="Detalhes" component={Detalhes} />
+            <Stack.Screen name="Perfil" component={Perfil} />
             </Stack.Navigator>
         </NavigationContainer>
     )

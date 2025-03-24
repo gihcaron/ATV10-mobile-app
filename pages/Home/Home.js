@@ -58,6 +58,12 @@ export default function Home ({navigation}) {
             />
         </View>
 
+        <Text style={styles.linkPerfil
+        } onPress={() => navigation.navigate('Perfil')
+        }>
+            Acesse o perfil!
+        </Text>
+
         </View>
     );
 }
@@ -100,4 +106,12 @@ export default function Home ({navigation}) {
             width: '80%',
             marginBottom: 10,
         },
+
+        linkPerfil:{
+            color:'darkgray',
+            fontSize:12,
+            textAlign:'center',
+            marginTop:20,
+            textDecorationLine:'underline',
+        }
     });
