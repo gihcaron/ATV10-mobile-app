@@ -5,13 +5,13 @@ import { icons, Ionicons } from "@expo/vector-icons";
 export default function Perfil() {
 return (
     <View style={styles.container}>
-        <Text style={styles.title}> Marcelo</Text>
+        <Text style={styles.title}> Giovanna Caron 🎀</Text>
         <Text style={styles.description}>
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet...
+           Olá, eu sou a Giovanna Caron, estudante do 3o semestre do curso Analise e Desenvolvimento de Sistemas no SENAI de Valinhos. Confira abaixo, algumas das minhas habilidades :
         </Text>
 
         <Image
-            source={require("../../assets/profile.jpg")}
+            source={{ uri: "https://avatars.githubusercontent.com/u/158209996?v=4" }}
             style={styles.profileImage}
         />
         
@@ -23,16 +23,11 @@ return (
                 <Ionicons name="logo-figma" size={40} />
             </View>
             <View style={styles.iconRow}>
-                <Ionicons name="logo-amazon" size={40} />
                 <Ionicons name="logo-css3" size={40} color="blue" />
                 <Ionicons name="logo-javascript" size={40} color="yellow" />
                 <Ionicons name="logo-react" size={40} color="cyan" />
             </View>
-            <View style={styles.iconR}>
-                <Ionicons name="logo-react" size={40} />
-                <Ionicons name="logo-firebase" size={40} color="blue" />
 
-            </View>
         </View>
     </View>
 );
